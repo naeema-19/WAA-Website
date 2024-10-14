@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <Brands />
+      
       <Feature />
       <About />
       <FeaturesTab />
@@ -33,6 +33,7 @@ export default function Home() {
       <FAQ />
       <Testimonial />
       <Pricing />
+      <Brands />
       <Contact />
       <Blog />
     </main>
