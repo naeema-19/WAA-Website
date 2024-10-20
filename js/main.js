@@ -114,13 +114,36 @@
                 items:4
             },
             768:{
-                items:6
+                items:5
             },
             992:{
-                items:8
+                items:5
             }
         }
     });
+        // Vendor carousel
+        $('.cert-carousel').owlCarousel({
+            loop: true,
+            margin: 45,
+            dots: false,
+            loop: true,
+            autoplay: true,
+            smartSpeed: 1000,
+            responsive: {
+                0:{
+                    items:1
+                },
+                576:{
+                    items:2
+                },
+                768:{
+                    items:3
+                },
+                992:{
+                    items:3
+                }
+            }
+        });
 
     window.addEventListener('scroll',()=>{
         let image=select('.me-auto img');
