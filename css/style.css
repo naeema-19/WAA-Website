@@ -313,15 +313,15 @@ h6,
 /*** Service ***/
 .service-item {
     position: relative;
-    height: 300px;
+    height: 500px;
     padding: 0 30px;
     transition: .5s;
 }
 
 .service-item .service-icon {
     margin-bottom: 30px;
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
