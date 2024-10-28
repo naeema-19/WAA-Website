@@ -490,3 +490,24 @@ h6,
         margin-bottom: -75px;
     }
 }
+
+
+
+/* Style for the please wait message */
+.please-wait {
+    display: none; /* Initially hidden */
+    text-align: center;
+    font-size: 1.5em;
+    color: #ffffff;
+    margin-top: 20px;
+  }
+
+  /* Style for the entry received message */
+  .entry-received {
+    display: none; /* Initially hidden */
+    text-align: center;
+    font-size: 1.2em;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 20px;
+  }

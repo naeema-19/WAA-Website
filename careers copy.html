@@ -159,45 +159,26 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="bg-primary rounded h-100 d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
-                        <!--<form>
-                            <div class="row g-3">
-                                <div class="col-xl-12">
-                                    <input type="text" class="form-control bg-light border-0" placeholder="Your Name" style="height: 55px;" required>
-                                </div>
-                                <div class="col-12">
-                                    <input type="email" class="form-control bg-light border-0" placeholder="Your Email" style="height: 55px;" required>
-                                </div>
-                                <div class="col-12">
-                                    <input type="text" class="form-control bg-light border-0" placeholder="Your Phone Number" style="height: 55px;">
-                                </div>
-                                <div class="col-12">
-                                    <input type="file" class="form-control bg-light border-0" accept=".pdf, .doc, .docx" style="height: 55px;" required>
-                                </div>
-                                <div class="col-12">
-                                    <textarea class="form-control bg-light border-0" rows="3" placeholder="Additional Information (Optional)"></textarea>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-dark w-100 py-3" type="submit">Submit Your CV</button>
-                                </div>
-                            </div>
-                        </form>-->
-                        
-    <!--<iframe
-    id="JotFormIFrame-243010993658461"
-    title="Share your CV/Resume"
-    onload="window.parent.scrollTo(0,0)"
-    allowtransparency="true"
-    allow="geolocation; microphone; camera; fullscreen"
-    src="https://form.jotform.com/243010993658461"
-    frameborder="0"
-    style="min-width:100%;max-width:100%;height:539px;border:none;"
-    scrolling="no"
-  >
-  </iframe>
-  <script src='https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'></script>
-  <script>window.jotformEmbedHandler("iframe[id='JotFormIFrame-243010993658461']", "https://form.jotform.com/")</script>-->
-
-                         
+                        <style>
+                            /* Style for the please wait message */
+                            .please-wait {
+                              display: none; /* Initially hidden */
+                              text-align: center;
+                              font-size: 1.5em;
+                              color: #ffffff;
+                              margin-top: 20px;
+                            }
+                          
+                            /* Style for the entry received message */
+                            .entry-received {
+                              display: none; /* Initially hidden */
+                              text-align: center;
+                              font-size: 1.2em;
+                              color: #ffffff;
+                              font-weight: bold;
+                              margin-top: 20px;
+                            }
+                          </style>
                           
                           <form name="submit-to-google-sheet" id="submit-to-google-sheet">
                             <div class="row g-3">
@@ -271,7 +252,6 @@
                             });
                           }
                           </script>
-  
                     </div>
                 </div>
             </div>
